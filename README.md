@@ -18,3 +18,5 @@ The library is released as open-source and available on [GitHub](https://github.
 - **Contributor**: Alessandro Ghiotto
 - **Contribution**: Implemented horizontal fuzzy sets in the `AlphaFuzzySet` file (in "softpy/fuzzy/"), allowing users to work with horizontal membership functions.
 - **Example**: Added an example to demonstrate how to use the horizontal fuzzy sets. The file `example_AlphaFuzzySet.ipynb` in the "example/" folder.
+
+![horizontal fs](https://github.com/AlessandroGhiotto/softpy/blob/main/examples/AlphaFuzzySet_image.png)
