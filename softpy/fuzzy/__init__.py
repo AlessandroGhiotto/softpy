@@ -9,6 +9,9 @@ from .operations import ContinuousFuzzyCombination, ContinuousFuzzyNegation, Con
 from .control import MamdaniRule, SugenoRule, FuzzyControlSystem
 from .clustering import FuzzyCMeans
 
+# AlphaFuzzySet
+from .AlphaFuzzySet import AlphaFuzzySet, AlphaFuzzyCombination
+
 __all__ = [
     "FuzzySet",
     "DiscreteFuzzySet",
@@ -37,5 +40,7 @@ __all__ = [
     "MamdaniRule",
     "SugenoRule",
     "FuzzyControlSystem",
-    "FuzzyCMeans"
+    "FuzzyCMeans",
+    "AlphaFuzzySet",
+    "AlphaFuzzyCombination"
 ]
